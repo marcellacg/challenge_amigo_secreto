@@ -14,3 +14,6 @@ Nesta aplicação haverá como adicionar nomes de pessoas (amigos) para realizar
 
 ### número sorteado
 ![image](https://github.com/user-attachments/assets/f5f0527f-5325-4977-9127-4ca7f1853864)
+
+#### Desafios encontrados:
+Validação de entrada e impedimento de re-sorteio depois de inseridos os nomes. O desafio de validação de entrada foi superado para inputs que contivessem números, uma vez que só se aceitariam nomes; o impedimento de re-sorteio foi superado com outra validação, esta sendo o processamento do sorteio somente quando a lista estivesse cheia (ou seja, sem a possibilidade de acréscimo de nomes depois de sorteados), e assim que fosse realizado o sorteio não se pode mais clicar no botão 'sortear amigo secreto.'
