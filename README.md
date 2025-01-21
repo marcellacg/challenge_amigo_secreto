@@ -15,4 +15,5 @@ Nesta aplicação haverá como adicionar nomes de pessoas (amigos) para realizar
 ### número sorteado
 ![image](https://github.com/user-attachments/assets/f5f0527f-5325-4977-9127-4ca7f1853864)
 
-### HOSPEDAGEM EM:
+### Deploy:
+https://challenge-amigo-secreto-mu.vercel.app
