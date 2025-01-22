@@ -1,5 +1,5 @@
 # Challenge Amigo Secreto
-![Static Badge](https://img.shields.io/badge/node-vers%C3%A3o%20v21.6.1-blue) ![Static Badge](https://img.shields.io/badge/status-concluido-green) ![Static Badge](https://img.shields.io/badge/tecnologias-html-blue) ![Static Badge](https://img.shields.io/badge/%20-css-orange) ![Static Badge](https://img.shields.io/badge/%20-javascript-8A2BE2) ![Static Badge](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blue)
+![Static Badge](https://img.shields.io/badge/node-vers%C3%A3o%20v21.6.1-blue) ![Static Badge](https://img.shields.io/badge/status-concluido-green) ![Static Badge](https://img.shields.io/badge/tecnologias-html-blue) ![Static Badge](https://img.shields.io/badge/%20-css-orange) ![Static Badge](https://img.shields.io/badge/%20-javascript-8A2BE2) ![Static Badge](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blue) ![Static Badge](https://img.shields.io/badge/deploy-vercel-green)
 
 
 
@@ -17,3 +17,7 @@ Nesta aplicação haverá como adicionar nomes de pessoas (amigos) para realizar
 
 #### Desafios encontrados:
 Validação de entrada e impedimento de re-sorteio depois de inseridos os nomes. O desafio de validação de entrada foi superado para inputs que contivessem números, uma vez que só se aceitariam nomes; o impedimento de re-sorteio foi superado com outra validação, esta sendo o processamento do sorteio somente quando a lista estivesse cheia (ou seja, sem a possibilidade de acréscimo de nomes depois de sorteados), e assim que fosse realizado o sorteio não se pode mais clicar no botão 'sortear amigo secreto.'
+
+
+### deploy do projeto no Vercel
+https://challenge-amigo-secreto-mocha.vercel.app
