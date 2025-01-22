@@ -6,6 +6,10 @@ function adicionarAmigo() {
     
     if (amigo == '' || !isNaN(amigo)){ //validando input
         alert('Insira um nome válido. ');
+    }
+    
+    if (listaDeSorteados.includes(amigo)){ //para verificar se o mesmo nome foi inserido
+        alert('Nome já consta lista.')
     } else {
         listaDeSorteados.push(amigo); //adicionando amigos em uma lista
         listaDeAmigos();
