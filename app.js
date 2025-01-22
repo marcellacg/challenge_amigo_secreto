@@ -9,7 +9,7 @@ function adicionarAmigo() {
     }
     
     if (listaDeSorteados.includes(amigo)){ //para verificar se o mesmo nome foi inserido
-        alert('Nome já consta lista.')
+        alert('Nome já consta na lista.')
     } else {
         listaDeSorteados.push(amigo); //adicionando amigos em uma lista
         listaDeAmigos();
